@@ -1,0 +1,69 @@
+body {
+    background-color: hsl(233, 47%, 7%);
+    margin: 30px;
+}
+
+.container-parent-grid {
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row;
+    color: white;
+    text-align: left;
+
+
+}
+
+/* Image attachement area */
+.childtwo-text-area-grid {
+    border-radius: 0px 10px 10px 0px;
+    background-image: linear-gradient(rgba(170, 92, 219, 0.65), rgba(170, 92, 219, 0.65)), url(images/image-header-desktop.jpg);
+    width: 31.7rem;
+}
+
+.childtwo-text-area-grid img {
+    padding: 0px 20px 20px;
+}
+
+
+.childone-text-area-grid {
+
+    margin: 5px;
+    padding: 20px;
+
+}
+
+
+
+.childtwo-text-area-grid img {
+    width: 100%;
+}
+
+/* The figure flex section */
+.childone-data-analysis-figure {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: left;
+    gap: 40px;
+
+}
+
+.childone-data-one {}
+
+.childone-data-one p {
+    font-size: 10px;
+}
+
+.childone-data-two {}
+
+.childone-data-two p {
+    font-size: 10px;
+}
+
+.childone-data-three p {
+    font-size: 10px;
+}
+
+.childone-data-three {}
